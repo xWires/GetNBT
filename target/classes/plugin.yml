@@ -3,18 +3,8 @@ main: xyz.tangledwires.GetNBT.GetNBT
 version: 1.0.0
 author: xWires
 commands:
-   startvote:
-      description: Start a vote!
-      usage: /startvote (topic)
-      permission: GetNBT.startvote
-      permission-message: You don't have permission to start a vote.
-   voteyes:
-      description: Vote yes to the current question.
-      usage: /voteyes
-      permission: GetNBT.voteyes
-      permission-message: You don't have permission to vote on this question.
-   voteno:
-      description: Vote no to the current question
-      usage: /voteno
-      permission: GetNBT.voteno
-      permission-message: You don't have permission to vote on this question.
+   getnbt:
+      description: Get the metadata of the item you are holding
+      usage: /getnbt
+      permission: GetNBT.getnbt
+      permission-message: You don't have permission to use this command.

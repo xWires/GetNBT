@@ -1,4 +1,4 @@
-package xyz.tangledwires.getnbt;
+package xyz.tangledwires.GetNBT;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
@@ -21,21 +21,16 @@ public final class GetNBT extends JavaPlugin {
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
     	if (cmd.getName().equalsIgnoreCase("getnbt")) { 
 			if(sender instanceof Player) {
-            	// Player p = (Player) sender;
-				// String nbt = p.getInventory().getItemInMainHand().;
-				// p.sendMessage(nbt);
-			}
-    		return true;
-    	}
-		else if (cmd.getName().equalsIgnoreCase("getmeta")) {
-			if(sender instanceof Player) {
             	Player p = (Player) sender;
-				String meta = p.getInventory().getItemInMainHand().getItemMeta().getAsString();
-				p.sendMessage(meta);
+				if (p.getInventory().getItemInMainHand() != null) {
+					String meta = p.getInventory().getItemInMainHand().getItemMeta().getAsString();
+					p.sendMessage("");
+					p.sendMessage(meta);
+					p.sendMessage("");
+				}
 			}
 			return true;
-		}
-	
+		}	
     	return false; 
 	}
 }
