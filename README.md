@@ -1,3 +1,3 @@
-# MinecraftSpigotTemplate
+# GetNBT
 
-Replace all occurrences of "MinecraftSpigotTemplate" with your own plugin name. This includes file names.
+Adds a /getnbt command which shows the nbt data for the item you are holding.
