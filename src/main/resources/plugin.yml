@@ -1,0 +1,20 @@
+name: MinecraftSpigotTemplate
+main: xyz.tangledwires.MinecraftSpigotTemplate.MinecraftSpigotTemplate
+version: 1.0.0
+author: xWires
+commands:
+   startvote:
+      description: Start a vote!
+      usage: /startvote (topic)
+      permission: MinecraftSpigotTemplate.startvote
+      permission-message: You don't have permission to start a vote.
+   voteyes:
+      description: Vote yes to the current question.
+      usage: /voteyes
+      permission: MinecraftSpigotTemplate.voteyes
+      permission-message: You don't have permission to vote on this question.
+   voteno:
+      description: Vote no to the current question
+      usage: /voteno
+      permission: MinecraftSpigotTemplate.voteno
+      permission-message: You don't have permission to vote on this question.
