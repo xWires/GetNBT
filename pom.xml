@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>xyz.tangledwires</groupId>
   <artifactId>GetNBT</artifactId>
-  <version>1.19.2-SNAPSHOT</version>
+  <version>1.20.1</version>
    <build>
       <plugins>
           <plugin>
