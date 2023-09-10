@@ -9,7 +9,7 @@ public final class MinecraftSpigotTemplate extends JavaPlugin {
 	@Override
     public void onEnable() {
 		Bukkit.getServer().getLogger().info("Loaded MinecraftSpigotTemplate by xWires.");
-		Bukkit.getServer().getLogger().info("Found an bug? Open an issue at https://github.com/TangledWires/MinecraftSpigotTemplate");
+		Bukkit.getServer().getLogger().info("Found an bug? Open an issue at https://github.com/TangledWiresYT/GetNBT");
     }
     
     @Override
@@ -24,9 +24,9 @@ public final class MinecraftSpigotTemplate extends JavaPlugin {
     	else if (cmd.getName().equalsIgnoreCase("command2")) {
     		return true;
     	}
-		else if (cmd.getName().equalsIgnoreCase("command3")) {
-			return true;
-		}
+	else if (cmd.getName().equalsIgnoreCase("command3")) {
+		return true;
+	}
     	return false; 
     }
 }
